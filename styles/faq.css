@@ -1,0 +1,95 @@
+/* -------------------------------------- */
+body {
+  font-size: 20px;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/bkg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.hNavBar {
+  background-color: black;
+}
+
+.hNavBar ul {
+  overflow: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hNavBar li {
+  float: left;
+  list-style: none;
+  margin: 15px 20px;
+}
+
+#hNavLeft {
+  float: left;
+}
+
+#hNavRight {
+  float: right;
+  list-style: none;
+  margin-top: 15px;
+}
+
+#hNavRight li {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.hNavBar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer ul {
+  overflow: auto;
+  margin: 0;
+}
+
+.footer li {
+  float: left;
+  list-style: none;
+  margin: 15px 20px;
+  color: white;
+}
+/* -------------------------------------- */
+
+#hNavTitle {
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+#hNavFAQ {
+  text-decoration-line: overline;
+  text-decoration-thickness: 1px;
+  padding-top: 7px;
+}
+/* -------------------------------------- */
+
+.eachFAQ {
+  display: flex;
+  flex-direction: column;;
+  /* height: 160px; */
+  width: 60%;
+  background-color: #ddd;
+  margin: 15px;
+  margin-left: 20%;
+}
+
+h2 {
+  margin: 0;
+}
+
+.faq {
+  margin: 15px;
+}

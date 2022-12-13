@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/assessment.css">
+    <title>Quiz Bot - Assessment</title>
+</head>
+
+<body>
+    <header>
+        <nav class="hNavBar">
+            <ul id="hNavBarUl">
+                <div id="hNavLeft">
+                    <li id="hNavTitle"><a href="#">Quiz Bot</a></li>
+                </div>
+                <div id="hNavRight">
+                    <li id="hNavDashboard"><a href="../index.html">Dashboard</a></li>
+                    <li id="hNavAssessment"><a href="./assessment.html">Assessment</a></li>
+                    <li id="hNavStats"><a href="./stats.html">Stats</a></li>
+                    <li id="hNavFAQ"><a href="./faq.html">FAQs</a></li>
+                    <li id="hNavContactUs"><a href="./contactUs.html">Contact Us</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section id="contain">
+        <div id="container">
+            <div id="quizStart">Start Quiz!</div>
+            <div id="quizDisplay" style="display: none">
+                <div id="questionImage"></div>
+                <div id="quizQuestion"></div>
+                <div id="questionChoices">
+                    <div class="questionChoice" id="choiceA" onclick="verifyResponse('A')"></div>
+                    <div class="questionChoice" id="choiceB" onclick="verifyResponse('B')"></div>
+                    <div class="questionChoice" id="choiceC" onclick="verifyResponse('C')"></div>
+                </div>
+                <div id="quizProgress"></div>
+            </div>
+            <div id="scoreContainer" style="display: none"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <ul>
+            <li>Our Offices: </li>
+            <li>
+                <div>
+                    Street 77 <br>
+                    Almond Road <br>
+                    Toronto <br>
+                    Canada
+                </div>
+            </li>
+            <li>
+                <div>
+                    Street 99 <br>
+                    Cashew Road <br>
+                    London <br>
+                    England
+                </div>
+            </li>
+        </ul>
+    </footer>
+    <script src="../js/logic.js"></script>
+</body>
+
+</html>

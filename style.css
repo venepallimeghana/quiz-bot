@@ -1,0 +1,39 @@
+body {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.navBar {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+}
+
+.navBar ul {
+  overflow: auto;
+}
+
+.navBar li {
+  float: left;
+  list-style: none;
+  margin: 15px 20px;
+}
+
+#navLeft {
+  float: left;
+}
+
+#navRight {
+  float: right;
+  /* list-style: none; */
+}
+
+#navRight li {
+  margin: auto;
+}
+
+.navBar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}

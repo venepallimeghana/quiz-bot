@@ -1,0 +1,161 @@
+/* -------------------------------------- */
+body {
+  font-size: 1.5em;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/bkg4.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+}
+
+.hNavBar {
+  background-color: black;
+}
+
+.hNavBar ul {
+  overflow: auto;
+  margin: 0;
+  padding-top: 0;
+}
+
+.hNavBar li {
+  float: left;
+  list-style: none;
+  margin: 15px 20px;
+}
+
+#hNavLeft {
+  float: left;
+}
+
+#hNavRight {
+  float: right;
+  list-style: none;
+  margin-top: 15px;
+}
+
+#hNavRight li {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.hNavBar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer ul {
+  overflow: auto;
+  margin: 0;
+}
+
+.footer li {
+  float: left;
+  list-style: none;
+  margin: 15px 20px;
+  color: white;
+}
+/* -------------------------------------- */
+
+#hNavTitle {
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+#hNavDashboard {
+  text-decoration-line: overline;
+  text-decoration-thickness: 1px;
+  padding-top: 7px;
+}
+/* -------------------------------------- */
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-span-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#mainImage {
+  width: 99vw;
+  height: 90vh;
+  object-fit: fill;
+  box-sizing: border-box;
+}
+
+.intro-span-q {
+  margin: 20px;
+}
+
+.intro-span-desc {
+  margin: 20px;
+}
+
+#what {
+  position: relative;
+  width: 70vw;
+  left: 15%;
+}
+
+.intro-what {
+  position: relative;
+  height: 35vh;
+  width: 70vw;
+  margin: 50px 0;
+  box-shadow: 0px 5px 5px 0px;
+  border-radius: 10px;
+  background-color: lightsteelblue;
+}
+
+.intro-span {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.intro-span-even-a {
+  left: 0;
+  width: 65%;
+}
+
+.intro-span-even-b {
+  right: 0;
+  width: 35%;
+}
+
+.intro-span-odd-a {
+  left: 0;
+  width: 35%;
+}
+
+.intro-span-odd-b {
+  right: 0;
+  width: 65%;
+}
+
+.intro-what-even img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.intro-what-odd img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.intro-span-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}

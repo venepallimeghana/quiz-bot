@@ -1,0 +1,130 @@
+/* -------------------------------------- */
+body {
+  font-family: monospace;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/bkg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.hNavBar {
+  background-color: black;
+}
+
+.hNavBar ul {
+  overflow: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hNavBar li {
+  float: left;
+  list-style: none;
+  margin: 15px 20px;
+}
+
+#hNavLeft {
+  float: left;
+}
+
+#hNavRight {
+  float: right;
+  list-style: none;
+  margin-top: 15px;
+}
+
+#hNavRight li {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.hNavBar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* right: 0; */
+  /* width: 100%; */
+}
+
+.footer ul {
+  overflow: auto;
+  margin: 0;
+}
+
+.footer li {
+  float: left;
+  list-style: none;
+  margin: 15px 20px;
+  color: white;
+}
+/* -------------------------------------- */
+
+#hNavTitle {
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+#hNavContactUs {
+  text-decoration-line: overline;
+  text-decoration-thickness: 1px;
+  padding-top: 7px;
+}
+/* -------------------------------------- */
+
+.contactUs {
+  width: 300px;
+  background: #fff;
+  padding: 50px;
+  margin: 90px auto;
+  border-radius: 5px;
+  position: relative;
+}
+
+.contactUsTitle h1 {
+  color: black;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contactUsForm, .contactUsFormItem {
+  width: 100%;
+}
+
+.contactUsFormItem .input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  background: #ebeef1;
+  border: 0px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.contactUsFormItem .contactUsForm.input {
+  height: 125px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  resize: none;
+}
+
+.contactUsFormSubmit {
+  background: #222222;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
